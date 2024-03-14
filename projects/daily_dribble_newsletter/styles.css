@@ -9,6 +9,8 @@ h1{
     border-width: 3px;
 }
 .info{
+    width: 350px;
+    margin-left: 500px;
     display: flex;
     align-items: center;
     justify-content: center;

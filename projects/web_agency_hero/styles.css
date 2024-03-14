@@ -1,0 +1,46 @@
+
+.mine{
+    width: 1200px;
+    height: 500px;
+    margin-left: 100px;
+    border-style: solid;
+    background-image: url('images/faded-office.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+.button{
+    color: white;
+    background-color: #0ea5e9;
+    height: 45px;
+    border-style: none;
+    width: 95px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.dev{
+    color: #020202;
+    font-weight: 1000;
+    font-size: 40px;
+    letter-spacing: 2px;
+   
+    
+}
+.description{
+    color: #020202;
+    font-weight: 200;
+    font-size: 20px;
+    /* letter-spacing: 1px; */
+}
+.container{
+    margin-top: 60px; 
+    margin-left: 60px;
+}
+.come{
+    text-decoration: underline;
+    text-decoration-color: #0ea5e9;
+    text-decoration-thickness: 5px;
+}

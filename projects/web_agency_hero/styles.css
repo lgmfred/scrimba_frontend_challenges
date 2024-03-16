@@ -1,0 +1,46 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Use the full viewport height */
+    background: url('images/faded-office.png') center center/cover;
+  }
+  
+  .title {
+    color: #020202; /* Change h1 color to #020202 */
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    text-align: left;
+    color: black;
+  }
+  
+  .text-overlay p {
+    margin: 0; /* Remove default margins */
+  }
+  
+  .text-overlay button {
+    padding: 10px 20px;
+    background-color: #0ea5e9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+  }
+  
+  .highlight {
+    border-bottom: 1px solid #0ea5e9; /* Add a blue line under the words "come true" */
+  }
+  
+  
+  

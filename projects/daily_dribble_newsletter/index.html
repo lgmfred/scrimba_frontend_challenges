@@ -3,14 +3,63 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        padding: 0 10%; /* Adjust the padding value as needed */
+        box-sizing: border-box;
+        width: 80%; /* Set the width to 80% of the viewport */
+        margin: 0 auto; /* Center the container horizontally */
+      }
+      
+      h1 {
+          color: #121212;
+      }
+      img {
+          width: 380px;
+          border: 3px solid black;
+      }
+      form {
+          padding: 0 10%; /* Add padding to the form */
+      }
+      
+      input[type="email"] {
+          border: 3px solid black;
+          padding: 5px;
+      }
+      button[type="submit"] {
+          background-color: black; /* Set button background color to black */
+          color: white; /* Set button text color to white */
+          padding: 10px 60px; /* Increase button padding */
+          font-size: 16px; /* Increase button font size */
+      }
+
+      a {
+          color: black; /* Set link text color to black */
+      }
+    </style>
   </head>
   <body>
-    <h1>THE DAILY DRIBBLE</h1>
+    <div class="container">
+      <h1>THE DAILY DRIBBLE</h1>
 
-    <!-- Image credit: Thomas Serer https://unsplash.com/@jesusance -->
-    <img src="images/stadium.jpg" />
+      <!-- Image credit: Thomas Serer https://unsplash.com/@jesusance -->
+      <img src="images/stadium.jpg" /><br><br>
+      <strong><em>Your daily dose of soccer stories from on and off the pitch. Interviews, analyses, breaking news and more!</em></strong>
+      <form action="submit.php" method="post"><br><br>
+        <input type="email" id="email" name="email" value="ENTER YOUR EMAIL" required><br><br>
+        <button type="submit">Submit</button><br><br>
+        <strong><em>Read our <a href="https://example.com" target="_blank">terms of services</a></em></strong>
+      </form>
+      
+    </div>
   </body>
 </html>
+
 
 <!--
 THE DAILY DRIBBLE

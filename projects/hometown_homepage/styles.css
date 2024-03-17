@@ -16,3 +16,139 @@ body {
 img {
   width: 100px;
 }
+.home{
+  padding-right: 300px;
+  color: gray;
+}
+.main{
+  height: 700px;
+  width: 500px;
+  margin-left: 450px;
+}
+.top{
+  height: 200px;
+  width: 500px;
+  background-image: url("images/torshov.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;   
+  margin-bottom: 0px;
+  padding-top: 10px;
+       
+}
+.visit{
+background-color: #1D3557;
+font-size: 20px;
+width: 150px;
+color: white;
+border-radius: 8px;
+margin-left: 180px;
+margin-top: 70px;
+}
+.enjoy{
+  background-color: #457B9D;
+font-size: 15px;
+color: white;
+width: 300px;
+margin-left: 100px;
+border-radius: 8px;
+}
+.act{
+  margin-top: 0px;
+  height: 50px;
+  width: 500px;
+  background-color: #F1FAEE;
+  padding-top: 10px;
+}
+.middle{
+  height: 200px;
+  width: 500px;
+  background-color: #F1FAEE;
+}
+.mid1{
+  height: 180px;
+  width: 160px;
+  float: left;
+  margin-top: 5px;
+}
+.mid11{
+  height: 80px;
+  width: 160px;
+ }
+.mid12{
+  height: 90px;
+  width: 160px;
+  font-size: 10px;
+  padding-right: 10px;
+}
+.mid2{
+  height: 180px;
+  width: 160px;
+  float: left;
+  margin-top: 5px;
+}
+.mid21{
+  height: 80px;
+  width: 160px;
+ }
+.mid22{
+  height: 90px;
+  width: 160px;
+  font-size: 10px;
+  padding-right: 10px;
+}
+.mid3{
+  height: 180px;
+  width: 160px;
+  float: left;
+  margin-top: 5px;
+}
+.mid31{
+  height: 80px;
+  width: 160px;
+  }
+.mid32{
+  height: 90px;
+  width: 160px;
+  font-size: 10px;
+  padding-right: 10px;
+}
+.img1{
+  height: 60px;
+  width: 60px;
+  margin-top: 10px;
+  border-radius: 100%;
+}
+.bottom{
+  padding-top: 30px;
+  height: 200px;
+  width: 500px;
+ }
+.p{
+  font-weight: bold;
+}
+.bottom1{
+  height: 180px;
+  width: 300px;
+  margin-left: 80px;
+  background-color: #A8DADC;
+  border-radius: 10px;
+}
+.bottom11{
+height: 160px;
+width: 130px;
+float: left;
+margin-left: 10px;
+margin-top: 10px;
+}
+.bottom12{
+  height: 160px;
+  width: 130px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.bottomimage{
+  height: 160px;
+width: 130px;
+}

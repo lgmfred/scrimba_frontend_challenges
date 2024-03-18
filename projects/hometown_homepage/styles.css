@@ -1,18 +1,138 @@
-/**
-Palette: https://scrimba.com/links/hometown-palette
-RED: #E63946
-LIGHT: #F1FAEE
-AQUA: #A8DADC
-LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557
-
-*/
-
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6em;
+  text-align: center;
+}
+.guide{
+  border: 2px solid #457B9D;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  margin: 20px auto;
+  padding: 20px;
+  width: 70%;
+  background-color: #fff;
+}
+.activities {
+  background-color: #8d99ae;
+  border: 2px solid #457B9D;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  margin: 20px auto;
+  padding: 20px;
+  width: 70%;
+}
+
+.activities h3 {
+  text-align: left; 
+  color: #e85a4f; 
+}
+
+.activity {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #eae7dc; 
+  border-radius: 10px; 
+}
+
+.activity img {
+  width: 30%; 
+  height: auto;
+  border-radius: 10px;
+}
+
+.activity p {
+  width: 65%; 
+  text-align: left; 
+}
+
+
+.activity {
+  background-color: #fff; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); 
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.activity img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.hero {
+  background-image: url('images/torshov.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  width: 70%;
+  height: 300px; 
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #457B9D;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.hero-text {
+  background-color: rgba(255, 255, 255, 0.7); 
+  border: 2px solid #457B9D;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%; 
+  margin: auto;
   text-align: center;
 }
 
-img {
-  width: 100px;
+.guide {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  border: 2px solid #457B9D;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  margin: 20px auto;
+  padding: 20px;
+  width: 70%;
+  background-color: #fff;
+}
+
+.guide-image {
+  width: 30%; 
+  height: auto;
+  border-radius: 10px;
+}
+
+.guide-text {
+  width: 65%; 
+  text-align: left; 
+}
+
+.guide-image{
+  width: 30%; 
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+h1, h2, h3, h4 {
+  color: #354458;
+  text-align: center;
+}
+
+.activity {
+  margin: 20px 0;
+}
+
+.activity img {
+  width: 20%;
+  height: auto;
+  border-radius: 10px;
 }

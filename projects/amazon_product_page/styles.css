@@ -16,9 +16,7 @@ body {
 
 .main {
   height: 550px;
-  width: 850px;
-  border-style: solid;
-  border-color: black;
+  width: 1000px;
   margin-left: 250px;
 }
 .side1 {

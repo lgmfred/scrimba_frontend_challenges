@@ -3,43 +3,69 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <h1>THE DAILY DRIBBLE</h1>
 
     <!-- Image credit: Thomas Serer https://unsplash.com/@jesusance -->
-    <div class = "img">
-    <img src="images/stadium.jpg"  style="width: 380px;"/>
-    
-  </div>
-  <div class="info">
-    <p>Your daily dose of soccer stories from on and off the pitch. Interviews, analyses, breaking news and more!</p>
+    <div class="img">
+      <img src="images/stadium.jpg" style="width: 380px" />
+    </div>
+    <div class="info" class="d-inline-flex p-2 bd-highlight">
+      <p class="text-center">
+        Your daily dose of soccer stories from on and off the <br />
+        pitch. Interviews, analyses, breaking news and more!
+      </p>
+    </div>
+    <div class="message">
+      <input
+        type="text"
+        name=""
+        id=""
+        placeholder="ENTER YOUR EMAIL"
+        style="
+          border-color: black;
+          border-style: solid;
+          height: 30px;
+          width: 200px;
+          text-align: center;
+        "
+      />
+      <br />
+    </div>
+    <div class="button">
+      <input
+        type="button"
+        value="JOIN NOW"
+        style="
+          background-color: black;
+          color: white;
+          height: 30px;
+          width: 150px;
+          border-style: solid;
+          border-color: black;
+        "
+      />
+    </div>
+    <div class="terms">
+      <span
+        >Read our
+        <a href="https://ainembabaziderrick.com/" target="_blank">
+          terms of service</a
+        ></span
+      >
+    </div>
 
-  </div>
-  <div class="message">
-    <input type="text" name="" id="" placeholder="ENTER YOUR EMAIL" style="border-color: black; border-style: solid; height: 30px; width: 200px; text-align: center;"> <br>
-
-  </div>
-  <div class = "button">
-  <input type="button" value="JOIN NOW" style="background-color: black; color: white; height: 30px; width: 200px; border-style: solid; border-color: black;">
-
-  </div>
-  <div class="terms">
-    <span>Read our <a href="https://ainembabaziderrick.com/" target="_blank" > terms of service</a></span>
-
-  </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
-
-<!--
-THE DAILY DRIBBLE
-
-Your daily dose of soccer stories from on and off the pitch. 
-Interviews,  breaking news and more!
-
-ENTER YOUR EMAIL
-JOIN NOW
-
-Read our terms of service.
-
- -->

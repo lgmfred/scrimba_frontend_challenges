@@ -1,46 +1,32 @@
-h1{
-    text-align: center;
-    color: #121212;
+h1 {
+  text-align: center;
+  color: #121212;
 }
-.img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-width: 3px;
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 3px;
 }
-.info{
-    width: 350px;
-    margin-left: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 3px;
+  border-color: #121212;
 }
-.message{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-width: 3px;
-    border-color: #121212;
-    
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 3px;
+  border-color: #121212;
+  margin-top: 8px;
+  color: white;
 }
-.button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-width: 3px;
-    border-color: #121212;
-    margin-top: 8px;
-    /* background-color: #121212;  */
-    /* border: 3px; */
-    /* font-size: 16px; */
-    /* text-align: center; */
-    /* text-decoration: none; */
-    color: white;
-    
-}
-.terms{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
+.terms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
 }

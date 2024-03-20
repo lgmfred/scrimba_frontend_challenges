@@ -1,138 +1,394 @@
+/* Hometown Homepage */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
-  line-height: 1.6em;
-  text-align: center;
-}
-.guide{
-  border: 2px solid #457B9D;
-  border-radius: 10px;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-  margin: 20px auto;
-  padding: 20px;
-  width: 70%;
-  background-color: #fff;
-}
-.activities {
-  background-color: #8d99ae;
-  border: 2px solid #457B9D;
-  border-radius: 10px;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-  margin: 20px auto;
-  padding: 20px;
-  width: 70%;
+  position: relative;
+  width: 720px;
+  height: 1115px;
+  background: #FFFFFF;
 }
 
-.activities h3 {
-  text-align: left; 
-  color: #e85a4f; 
-}
-
-.activity {
-  display: flex; 
-  align-items: center; 
-  justify-content: space-between; 
-  margin: 20px 0;
-  padding: 20px;
-  background-color: #eae7dc; 
-  border-radius: 10px; 
-}
-
-.activity img {
-  width: 30%; 
-  height: auto;
-  border-radius: 10px;
-}
-
-.activity p {
-  width: 65%; 
-  text-align: left; 
-}
-
-
-.activity {
-  background-color: #fff; 
-  border: 1px solid #ccc; 
-  border-radius: 5px; 
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); 
-  margin: 20px 0;
-  padding: 20px;
-}
-
-.activity img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-.hero {
-  background-image: url('images/torshov.jpg'); 
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  width: 70%;
-  height: 300px; 
-  margin: 20px auto;
-  padding: 20px;
-  border: 2px solid #457B9D;
-  border-radius: 10px;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-}
-
-.hero-text {
-  background-color: rgba(255, 255, 255, 0.7); 
-  border: 2px solid #457B9D;
-  border-radius: 10px;
-  padding: 20px;
-  width: 80%; 
-  margin: auto;
-  text-align: center;
-}
-
+/* Guide */
 .guide {
-  display: flex; 
-  align-items: center; 
-  justify-content: space-between; 
-  border: 2px solid #457B9D;
+  position: absolute;
+  width: 720px;
+  height: 394px;
+  left: 0px;
+  top: 721px;
+  background: #FFFFFF;
+}
+
+/* Rectangle 4 */
+.rectangle {
+  position: absolute;
+  width: 400px;
+  height: 294px;
+  left: 160px;
+  top: 50px;
+  background: #A8DADC;
+  box-shadow: 0px 6px 0px #1D3557;
   border-radius: 10px;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-  margin: 20px auto;
-  padding: 20px;
-  width: 70%;
-  background-color: #fff;
 }
 
-.guide-image {
-  width: 30%; 
-  height: auto;
+/* per */
+.per {
+  position: absolute;
+  width: 180px;
+  height: 248.67px;
+  left: 173px;
+  top: 73px;
+  background: url('per.jpg'); /* Replace 'per.jpg' with the actual URL of your image */
   border-radius: 10px;
 }
 
-.guide-text {
-  width: 65%; 
-  text-align: left; 
-}
-
-.guide-image{
-  width: 30%; 
-  height: auto;
-  margin: auto;
-  display: block;
-}
-
-h1, h2, h3, h4 {
-  color: #354458;
+/* Your guide */
+h2 {
+  position: absolute;
+  width: 207px;
+  height: 32px;
+  left: 349px;
+  top: 99px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
   text-align: center;
+  color: #1D3557;
 }
 
-.activity {
-  margin: 20px 0;
+/* Activities */
+.activities {
+  position: absolute;
+  width: 720px;
+  height: 378px;
+  left: 0px;
+  top: 343px;
+  background: #F1FAEE;
 }
 
-.activity img {
-  width: 20%;
-  height: auto;
+/* Group 83 */
+.group83 {
+  position: absolute;
+  width: 198px;
+  height: 227px;
+  left: 488px;
+  top: 113px;
+}
+
+/* Mask Group */
+.maskGroup {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 537px;
+  top: 113px;
+}
+
+/* Ellipse 1 */
+.ellipse1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 537px;
+  top: 113px;
+  background: #C4C4C4;
+}
+
+/* sports */
+.sports {
+  position: absolute;
+  width: 100.66px;
+  height: 100.66px;
+  left: 536.34px;
+  top: 113px;
+  background: url('sports.jpg'); /* Replace 'sports.jpg' with the actual URL of your image */
+}
+
+/* Play sports at the Lilleborg field */
+.sportsTitle {
+  position: absolute;
+  width: 197px;
+  height: 38px;
+  left: 488px;
+  top: 236px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #1D3557;
+}
+
+/* Field */
+.field {
+  position: absolute;
+  width: 198px;
+  height: 54px;
+  left: 488px;
+  top: 286px;
+}
+
+/* Play volleyball, football, basket ball or lift some weights. */
+.sportsDescription {
+  position: absolute;
+  width: 198px;
+  height: 54px;
+  left: 488px;
+  top: 286px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #1D3557;
+}
+
+/* Park */
+.park {
+  position: absolute;
+  width: 198px;
+  height: 227px;
+  left: 265px;
+  top: 113px;
+}
+
+/* Mask Group */
+.maskGroupPark {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 314px;
+  top: 113px;
+}
+
+/* Ellipse 1 */
+.ellipse1Park {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 314px;
+  top: 113px;
+  background: #C4C4C4;
+}
+
+/* park */
+.parkImage {
+  position: absolute;
+  width: 103.97px;
+  height: 103.97px;
+  left: 314px;
+  top: 113px;
+  background: url('park.jpg'); /* Replace 'park.jpg' with the actual URL of your image */
+}
+
+/* Go for a piknic in the local park */
+.parkTitle {
+  position: absolute;
+  width: 162px;
+  height: 35px;
+  left: 283px;
+  top: 235px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #1D3557;
+}
+
+/* The Torshov Park is perfect for piknic, getting some tan, or just chilling out. */
+.parkDescription {
+  position: absolute;
+  width: 198px;
+  height: 54px;
+  left: 265px;
+  top: 286px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #1D3557;
+}
+
+/* Theatre */
+.theatre {
+  position: absolute;
+  width: 198px;
+  height: 226px;
+  left: 34px;
+  top: 114px;
+}
+
+/* Mask Group */
+.maskGroupTheatre {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 83px;
+  top: 114px;
+}
+
+/* Ellipse 1 */
+.ellipse1Theatre {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 83px;
+  top: 114px;
+  background: #C4C4C4;
+}
+
+/* theatre */
+.theatreImage {
+  position: absolute;
+  width: 100px;
+  height: 99.34px;
+  left: 83px;
+  top: 114px;
+  background: url('theatre.jpg'); /* Replace 'theatre.jpg' with the actual URL of your image */
+}
+
+/* Attend a show or a concert */
+.theatreTitle {
+  position: absolute;
+  width: 183px;
+  height: 32px;
+  left: 41px;
+  top: 236px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #1D3557;
+}
+
+/* The Torshov Theatre is a great place to spend your night out. */
+.theatreDescription {
+  position: absolute;
+  width: 198px;
+  height: 55px;
+  left: 34px;
+  top: 285px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #1D3557;
+}
+
+/* Top three activities to do at Torshov */
+.activitiesTitle {
+  position: absolute;
+  width: 439px;
+  height: 20px;
+  left: 140px;
+  top: 39px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #1D3557;
+}
+
+/* Hero */
+.hero {
+  position: absolute;
+  width: 720px;
+  height: 343px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+}
+
+/* torshov-image */
+.torshovImage {
+  position: absolute;
+  width: 720px;
+  height: 343px;
+  left: 0px;
+  top: 0px;
+  background: url('torshov.jpg'); /* Replace 'torshov.jpg' with the actual URL of your image */
+}
+
+/* Hero text 2 */
+.heroText2 {
+  position: absolute;
+  width: 412px;
+  height: 52px;
+  left: 154px;
+  top: 172px;
+}
+
+/* Rectangle 3 */
+.rectangle3 {
+  position: absolute;
+  width: 412px;
+  height: 52px;
+  left: calc(50% - 412px/2);
+  top: calc(50% - 52px/2 + 26.5px);
+  background: #457B9D;
   border-radius: 10px;
 }
+
+/* Enjoy culture and sports in this vibrant district close to the center of Oslo. */
+.heroDescription {
+  position: absolute;
+  width: 355px;
+  height: 39px;
+  left: 182px;
+  top: 177px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.72px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+  /* Hero Text */
+  .heroText {
+      position: absolute;
+      width: 225px;
+      height: 42px;
+      left: 247px;
+      top: 119px;
+  }
+
+  /* Rectangle 2 */
+  .rectangle2 {
+      position: absolute;
+      width: 225px;
+      height: 42px;
+      left: 247px;
+      top: 119px;
+      background: #1D3557;
+      border-radius: 10px;
+  }
+
+  /* Visit Torshov */
+  .visitTorshov {
+      position: absolute;
+      width: 201px;
+      height: 34px;
+      left: 259px;
+      top: 122px;
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 37px;
+      text-align: center;
+      color: #FFFFFF;
+  }
+

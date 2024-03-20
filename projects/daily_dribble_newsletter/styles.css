@@ -1,7 +1,7 @@
 body {
     margin: 5%;
     /* border: 10%; */
-    border-color: rgb(14, 22, 107);
+    /*border-color: rgb(14, 22, 107);*/
     padding: 5%;
   }
   
@@ -17,22 +17,36 @@ body {
   p {
       font-weight: bold;
   }
-  
+  /*
   button {
       border-width: 3px;
       padding: 2%;
       width: 200px;
       /* margin: 2%; */
-      border-color: #121212;
+      /*border-color: #121212;
       border-style: solid;
   }
   .button2 {
       background-color: #121212;
       color: whitesmoke;
   }
-  
+  */
+  .button1, .button2 {
+    border: 3px solid #121212;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+  } 
+
   .button1 {
-      color: gray;
+    color: gray;
+    
+  }
+  
+  .button2 {
+    background-color: black;
+    color: white !important;
   }
   
   

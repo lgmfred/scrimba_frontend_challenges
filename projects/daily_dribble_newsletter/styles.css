@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    padding: 0 10%; /* Adjust the padding value as needed */
+    box-sizing: border-box;
+    width: 80%; /* Set the width to 80% of the viewport */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  h1 {
+      color: #121212;
+  }
+  img {
+      width: 380px;
+      border: 3px solid black;
+  }
+  form {
+      padding: 0 10%; /* Add padding to the form */
+  }
+  
+  input[type="email"] {
+      border: 3px solid black;
+      padding: 5px;
+  }
+  button[type="submit"] {
+      background-color: black; /* Set button background color to black */
+      color: white; /* Set button text color to white */
+      padding: 10px 60px; /* Increase button padding */
+      font-size: 16px; /* Increase button font size */
+  }
+
+  a {
+      color: black; /* Set link text color to black */
+  }

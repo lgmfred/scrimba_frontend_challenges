@@ -8,4 +8,36 @@ body {
 
 .main-img {
   box-shadow: 0px 2px 5px lightgray;
+  height: 500px;
+}
+.rate {
+  height: 17px;
+}
+
+.main {
+  height: 550px;
+  width: 1000px;
+  margin-left: 250px;
+}
+.side1 {
+  height: 550px;
+  width: 385px;
+  margin-left: 10px;
+  float: left;
+}
+.side2 {
+  height: 550px;
+  width: 385px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+  font-size: 13.8px;
+}
+.auburn {
+  color: #007185;
+  text-decoration: underline;
+  text-decoration-color: #007185;
+}
+.up {
+  color: #565959;
 }

@@ -1,0 +1,50 @@
+h1 {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  width: 380px;
+  color: #121212;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 3px;
+  width: 380px;
+}
+.message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 3px;
+  border-color: #121212;
+  font-weight: 900;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 3px;
+  border-color: #121212;
+  margin-top: 8px;
+  color: white;
+  font-weight: 900;
+}
+.terms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.info{
+  display: block;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 240px;
+  font-weight: 600;
+}

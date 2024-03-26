@@ -1,394 +1,201 @@
-/* Hometown Homepage */
+/** Palette : https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557 */
+
 body {
+  margin: auto;
+  padding: 5%;
   position: relative;
   width: 720px;
   height: 1115px;
-  background: #FFFFFF;
-}
-
-/* Guide */
-.guide {
-  position: absolute;
-  width: 720px;
-  height: 394px;
-  left: 0px;
-  top: 721px;
-  background: #FFFFFF;
-}
-
-/* Rectangle 4 */
-.rectangle {
-  position: absolute;
-  width: 400px;
-  height: 294px;
-  left: 160px;
-  top: 50px;
-  background: #A8DADC;
-  box-shadow: 0px 6px 0px #1D3557;
-  border-radius: 10px;
-}
-
-/* per */
-.per {
-  position: absolute;
-  width: 180px;
-  height: 248.67px;
-  left: 173px;
-  top: 73px;
-  background: url('per.jpg'); /* Replace 'per.jpg' with the actual URL of your image */
-  border-radius: 10px;
-}
-
-/* Your guide */
-h2 {
-  position: absolute;
-  width: 207px;
-  height: 32px;
-  left: 349px;
-  top: 99px;
-  font-family: 'Arial';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
   text-align: center;
-  color: #1D3557;
+  background-color: #FFFFFF;
+  
+}
+img {
+  width: 100px;
+  border-radius: 50px;
 }
 
-/* Activities */
+/** HERO SECTION*/
+.HERO {
+  padding-top: 17%;
+  background-image: url("images/torshov.jpg");
+  background-color: #FFFFFF;
+  width: 720px;
+  height: 343px;
+  background-position: center;
+  background-size: cover;
+
+}
+.hr1 {
+  background-color: #1D3557;
+  border-radius: 10px;
+  background-position: center;
+  margin-top: -22px;
+  margin-left: 247px;
+  width: 215px;
+  height: 42px;
+}
+.hr2 {
+  background-color: #457B9D;
+  margin-left: 17%;
+  margin-right: 17%;
+  width: 412px;
+  height: 52px;
+  border-radius: 10px;
+  margin-left: 145px;
+
+}
+#Visit {
+  color: white;
+  width: 201px;
+  height: 34px;
+  margin-left: 10px;
+  font-size: 32px;
+  font-family: Arial;
+  font-weight: 700;
+  line-height: 36.8px;
+  text-align: center;
+
+}
+ #Visit1 {
+  padding-top: 1%;
+  color: white;
+  font-family: Arial;
+  font-size: 18.72px;
+  font-weight: 700;
+  line-height: 21.53px;
+  text-align: center;
+
+ }
+
+/** ACTIVITIES SECTION*/
+
 .activities {
-  position: absolute;
+  background-color: #F1FAEE;
   width: 720px;
   height: 378px;
-  left: 0px;
   top: 343px;
-  background: #F1FAEE;
+  gap: 0px;
+  opacity: 0px;  
+
 }
 
-/* Group 83 */
-.group83 {
-  position: absolute;
-  width: 198px;
-  height: 227px;
-  left: 488px;
-  top: 113px;
+#title {
+padding-top: 5%;
+font-family: Arial;
+font-size: 24px;
+font-weight: 700;
+line-height: 27.6px;
+text-align: center;
+color: #1D3557;
+
 }
 
-/* Mask Group */
-.maskGroup {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 537px;
-  top: 113px;
+.features {
+  padding-top: 4%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
 }
 
-/* Ellipse 1 */
-.ellipse1 {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 537px;
-  top: 113px;
-  background: #C4C4C4;
+.features div {
+  margin: 10px 20px;
+
 }
 
-/* sports */
-.sports {
-  position: absolute;
-  width: 100.66px;
-  height: 100.66px;
-  left: 536.34px;
-  top: 113px;
-  background: url('sports.jpg'); /* Replace 'sports.jpg' with the actual URL of your image */
+
+.features p {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+#p1 {
+color: #1D3557;
+font-family: Arial;
+font-size: 16px;
+font-weight: 700;
+line-height: 18.4px;
+text-align: center;
+
+}
+#p2 {
+color: #1D3557;
+font-family: Arial;
+font-size: 16px;
+font-weight: 400;
+line-height: 18.4px;
+text-align: center;
+
+
 }
 
-/* Play sports at the Lilleborg field */
-.sportsTitle {
-  position: absolute;
-  width: 197px;
-  height: 38px;
-  left: 488px;
-  top: 236px;
-  font-family: 'Arial';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 18px;
-  text-align: center;
-  color: #1D3557;
-}
+/** GUIDE SECTION  */
 
-/* Field */
-.field {
-  position: absolute;
-  width: 198px;
-  height: 54px;
-  left: 488px;
-  top: 286px;
-}
-
-/* Play volleyball, football, basket ball or lift some weights. */
-.sportsDescription {
-  position: absolute;
-  width: 198px;
-  height: 54px;
-  left: 488px;
-  top: 286px;
-  font-family: 'Arial';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
-  text-align: center;
-  color: #1D3557;
-}
-
-/* Park */
-.park {
-  position: absolute;
-  width: 198px;
-  height: 227px;
-  left: 265px;
-  top: 113px;
-}
-
-/* Mask Group */
-.maskGroupPark {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 314px;
-  top: 113px;
-}
-
-/* Ellipse 1 */
-.ellipse1Park {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 314px;
-  top: 113px;
-  background: #C4C4C4;
-}
-
-/* park */
-.parkImage {
-  position: absolute;
-  width: 103.97px;
-  height: 103.97px;
-  left: 314px;
-  top: 113px;
-  background: url('park.jpg'); /* Replace 'park.jpg' with the actual URL of your image */
-}
-
-/* Go for a piknic in the local park */
-.parkTitle {
-  position: absolute;
-  width: 162px;
-  height: 35px;
-  left: 283px;
-  top: 235px;
-  font-family: 'Arial';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 18px;
-  text-align: center;
-  color: #1D3557;
-}
-
-/* The Torshov Park is perfect for piknic, getting some tan, or just chilling out. */
-.parkDescription {
-  position: absolute;
-  width: 198px;
-  height: 54px;
-  left: 265px;
-  top: 286px;
-  font-family: 'Arial';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
-  text-align: center;
-  color: #1D3557;
-}
-
-/* Theatre */
-.theatre {
-  position: absolute;
-  width: 198px;
-  height: 226px;
-  left: 34px;
-  top: 114px;
-}
-
-/* Mask Group */
-.maskGroupTheatre {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 83px;
-  top: 114px;
-}
-
-/* Ellipse 1 */
-.ellipse1Theatre {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 83px;
-  top: 114px;
-  background: #C4C4C4;
-}
-
-/* theatre */
-.theatreImage {
-  position: absolute;
-  width: 100px;
-  height: 99.34px;
-  left: 83px;
-  top: 114px;
-  background: url('theatre.jpg'); /* Replace 'theatre.jpg' with the actual URL of your image */
-}
-
-/* Attend a show or a concert */
-.theatreTitle {
-  position: absolute;
-  width: 183px;
-  height: 32px;
-  left: 41px;
-  top: 236px;
-  font-family: 'Arial';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 18px;
-  text-align: center;
-  color: #1D3557;
-}
-
-/* The Torshov Theatre is a great place to spend your night out. */
-.theatreDescription {
-  position: absolute;
-  width: 198px;
-  height: 55px;
-  left: 34px;
-  top: 285px;
-  font-family: 'Arial';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
-  text-align: center;
-  color: #1D3557;
-}
-
-/* Top three activities to do at Torshov */
-.activitiesTitle {
-  position: absolute;
-  width: 439px;
-  height: 20px;
-  left: 140px;
-  top: 39px;
-  font-family: 'Arial';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: center;
-  color: #1D3557;
-}
-
-/* Hero */
-.hero {
-  position: absolute;
+.guide {
+  background-color: white;
+  padding-top: 2%;
   width: 720px;
-  height: 343px;
-  left: 0px;
-  top: 0px;
-  background: #FFFFFF;
+  height: 394px;
+  box-shadow: none;
+  align-items: center;
+  
 }
 
-/* torshov-image */
-.torshovImage {
-  position: absolute;
-  width: 720px;
-  height: 343px;
-  left: 0px;
-  top: 0px;
-  background: url('torshov.jpg'); /* Replace 'torshov.jpg' with the actual URL of your image */
-}
-
-/* Hero text 2 */
-.heroText2 {
-  position: absolute;
-  width: 412px;
-  height: 52px;
-  left: 154px;
-  top: 172px;
-}
-
-/* Rectangle 3 */
-.rectangle3 {
-  position: absolute;
-  width: 412px;
-  height: 52px;
-  left: calc(50% - 412px/2);
-  top: calc(50% - 52px/2 + 26.5px);
-  background: #457B9D;
+.guide div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px 120px;
+  background: #A8DADC;
   border-radius: 10px;
+  box-shadow: 0px 6px 0px 0px #1D3557;
 }
 
-/* Enjoy culture and sports in this vibrant district close to the center of Oslo. */
-.heroDescription {
-  position: absolute;
-  width: 355px;
-  height: 39px;
-  left: 182px;
-  top: 177px;
-  font-family: 'Arial';
-  font-style: normal;
+
+.guide img {
+  align-items: end;
+  border-radius: 10px;
+  width: 250px;
+  height: 300px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 3%;
+  margin-right: 5%;
+  
+
+}
+
+#hr7 {
+  color: #1D3557;
+  font-family: Arial;
+  font-size: 24px;
   font-weight: 700;
-  font-size: 18.72px;
-  line-height: 22px;
+  line-height: 27.6px;
   text-align: center;
-  color: #FFFFFF;
+  
 }
-
-  /* Hero Text */
-  .heroText {
-      position: absolute;
-      width: 225px;
-      height: 42px;
-      left: 247px;
-      top: 119px;
-  }
-
-  /* Rectangle 2 */
-  .rectangle2 {
-      position: absolute;
-      width: 225px;
-      height: 42px;
-      left: 247px;
-      top: 119px;
-      background: #1D3557;
-      border-radius: 10px;
-  }
-
-  /* Visit Torshov */
-  .visitTorshov {
-      position: absolute;
-      width: 201px;
-      height: 34px;
-      left: 259px;
-      top: 122px;
-      font-family: 'Arial';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 32px;
-      line-height: 37px;
-      text-align: center;
-      color: #FFFFFF;
-  }
-
+#hr8 {
+  color: #1D3557;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.4px;
+  text-align: center;
+  
+}
+#p3 {
+  color: #1D3557;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 18.4px;
+  text-align: center;
+  
+}

@@ -1,0 +1,151 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+}
+.home {
+  padding-right: 300px;
+  color: gray;
+}
+.top {
+  height: 400px;
+  width: 1160px;
+  background-image: url("images/torshov.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-top: 170px;
+  padding-left: 190px;
+}
+.visit {
+  background-color: #1d3557;
+  font-size: 30px;
+  width: 300px;
+  color: white;
+  border-radius: 10px;
+  margin-left: 400px;
+  margin-top: 140px;
+}
+.enjoy {
+  background-color: #457b9d;
+  font-size: 20px;
+  color: white;
+  width: 600px;
+  margin-left: 240px;
+  border-radius: 10px;
+}
+.act {
+  margin-top: 0px;
+  height: 50px;
+  width: 1350px;
+  background-color: #f1faee;
+  padding-top: 10px;
+}
+.middle {
+  height: 400px;
+  width: 1350px;
+  background-color: #f1faee;
+}
+.mid1 {
+  height: 360px;
+  width: 430px;
+  float: left;
+  margin-top: 5px;
+}
+.mid11 {
+  height: 160px;
+  width: 430px;
+}
+.mid12 {
+  height: 180px;
+  width: 430px;
+  font-size: 15px;
+  padding-right: 10px;
+}
+.mid2 {
+  height: 360px;
+  width: 430px;
+  float: left;
+  margin-top: 5px;
+}
+.mid21 {
+  height: 160px;
+  width: 430px;
+}
+.mid22 {
+  height: 180px;
+  width: 430px;
+  font-size: 15px;
+  padding-right: 10px;
+}
+.mid3 {
+  height: 360px;
+  width: 430px;
+  float: left;
+  margin-top: 5px;
+}
+.mid31 {
+  height: 160px;
+  width: 430px;
+}
+.mid32 {
+  height: 180px;
+  width: 430px;
+  font-size: 15px;
+  padding-right: 10px;
+}
+.img1 {
+  height: 150px;
+  width: 240px;
+  margin-top: 10px;
+  border-radius: 100%;
+}
+.bottom {
+  padding-top: 30px;
+  height: 350px;
+  width: 700px;
+  border-radius: 10px;
+  border-bottom: 10px solid #1D3557;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  background-color: #A8DADC;
+}
+.p {
+  font-weight: bold;
+}
+
+.bottom11 {
+  height: 300px;
+  width: 200px;
+ 
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.bottom12 {
+  height: 300px;
+  width: 200px;
+  padding-left: 0;
+  margin-top: 20px;
+  font-size: 18px;
+  padding-top: 20px;
+  
+}
+.bottomimage {
+  height: 300px;
+  width: 300px;
+}

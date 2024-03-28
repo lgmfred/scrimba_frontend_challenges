@@ -1,18 +1,192 @@
-/**
-Palette: https://scrimba.com/links/hometown-palette
+/** Palette : https://scrimba.com/links/hometown-palette
 RED: #E63946
 LIGHT: #F1FAEE
 AQUA: #A8DADC
 LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557
-
-*/
+DARK BLUE: #1D3557 */
 
 body {
-  margin: 0;
+  margin: auto;
+  position: relative;
   text-align: center;
+  background-color: #FFFFFF;
+  
 }
-
 img {
   width: 100px;
+  border-radius: 50px;
+}
+
+/** HERO SECTION*/
+.HERO {
+  padding-top: 17%;
+  /** background-image: url("images/torshov.jpg"); */
+  background :-moz-linear-gradient(skyblue, white);
+  background-position: center;
+  background-size: cover;
+
+}
+.hr1 {
+  background-color: #1D3557;
+  border-radius: 10px;
+  background-position: center;
+  margin-top: -115px;
+  margin-left: 540px;
+  width: 215px;
+  height: 42px;
+}
+.hr2 {
+  background-color: #457B9D;
+  margin-bottom: 9%;
+  margin-right: 17%;
+  width: 412px;
+  height: 52px;
+  border-radius: 10px;
+  margin-left: 440px;
+
+}
+#Visit {
+  color: white;
+  width: 201px;
+  height: 34px;
+  margin-left: 10px;
+  font-size: 32px;
+  font-family: Arial;
+  font-weight: 700;
+  line-height: 36.8px;
+  text-align: center;
+
+}
+ #Visit1 {
+  padding-top: 1%;
+  color: white;
+  font-family: Arial;
+  font-size: 18.72px;
+  font-weight: 700;
+  line-height: 21.53px;
+  text-align: center;
+
+ }
+
+/** ACTIVITIES SECTION*/
+
+.activities {
+  background-color: #d2fcc3;
+  top: 343px;
+  gap: 0px;
+  opacity: 0px;  
+
+}
+
+#title {
+padding-top: 5%;
+font-family: Arial;
+font-size: 24px;
+font-weight: 700;
+line-height: 27.6px;
+text-align: center;
+color: #1D3557;
+
+}
+
+.features {
+  padding-top: 4%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.features div {
+  margin: 10px 20px;
+
+}
+
+
+.features p {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+#p1 {
+color: #1D3557;
+font-family: Arial;
+font-size: 16px;
+font-weight: 700;
+line-height: 18.4px;
+text-align: center;
+
+}
+#p2 {
+color: #1D3557;
+font-family: Arial;
+font-size: 16px;
+font-weight: 400;
+line-height: 18.4px;
+text-align: center;
+
+
+}
+
+/** GUIDE SECTION  */
+
+.guide {
+  background-color: white;
+  padding-top: 2%;
+  box-shadow: none;
+  align-items: center;
+  
+}
+
+.guide div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px 400px;
+  background: #A8DADC;
+  border-radius: 10px;
+  box-shadow: 0px 6px 0px 0px #1D3557;
+}
+
+
+.guide img {
+  align-items: end;
+  border-radius: 10px;
+  width: 250px;
+  height: 300px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 3%;
+  margin-right: 5%;
+  
+
+}
+
+#hr7 {
+  color: #1D3557;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27.6px;
+  text-align: center;
+  
+}
+#hr8 {
+  color: #1D3557;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.4px;
+  text-align: center;
+  
+}
+#p3 {
+  color: #1D3557;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 18.4px;
+  text-align: center;
+  
 }
